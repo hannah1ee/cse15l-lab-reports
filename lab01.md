@@ -1,7 +1,7 @@
 # Lab Report 01
 
-## cd 
-**example: using the command with no arguments**
+> cd 
+**example:** using the command with no arguments
 
 ![Image](lab01a.png)
 - **working directory**: the working directory was ~/lecture1/messages
