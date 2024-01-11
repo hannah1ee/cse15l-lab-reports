@@ -6,21 +6,22 @@
 > **using the command with no arguments**
 
 ![Image](lab01_1a.png)
-- the working directory was ~/lecture1/messages
-- There is no output because the command is internal, and so is parsed and executed completely by it's own process. Although there is no output given by the command itself, I can see that I am now returned to my home directory in my next line. 
+- the working directory was /home
+- There is no output because the command is internal, and so is parsed and executed completely by it's own process. Although there is no output given by the command itself, I can see that I am in my home directory in my next line. This is because when cd is executed without arguments, the user is returned to the home directory, and for my case I was already in the home directory so no visible change.
+- The output (no output) is not an error
 
 > **using the command with a path to a directory as an argument**
 
 ![Image](lab01_1b.png)
-- the working directory was ~
-- i got that output because the command cd lecture1 moved me from the home directory to the lecture1 directory.
-- this output is not an error.
+- the working directory was /home
+- I got no output because as stated above, the command is internal and so is parsed and executed completely by it's own process. Yet although there is no output given by the command itself, I can see that I was moved to the directory of lecture1. This is because lecture1 was a directory in the filesystem of my home directory
+- The output (no output) is not an error. 
 
 > **using the command with a path to a file as an argument**
 
 ![Image](lab01_1c.png)
-- the working directory was ~/lecture1
-- i got that output because the command cd messages moved me from the lecture1 directory to the file messages within the lecture1 directory.
+- the working directory was /home/lecture1
+- I got no output because as stated above, the command is internal and so is parsed and executed completely by it's own process. Yet although there is no output given by the command itself, I can see that I was moved to the file messages. This is because in the filesystem of lecture1 there existed a file called messages
 - this output is not an error.
 
 ## `ls`
