@@ -2,7 +2,7 @@
 
 > cd 
 
-**example:** using the command with no arguments
+**using the command with no arguments**
 
 ![Image](lab01a.png)
 - **working directory**: the working directory was ~/lecture1/messages
