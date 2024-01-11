@@ -1,6 +1,6 @@
 # a page of easy to make recipes for college students!
 
-## baked potato recipe
+## microwave baked potato
 *recipe time: 15 minutes*
 
 **ingredients:**
