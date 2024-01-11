@@ -27,14 +27,26 @@
 
 > **using the command with no arguments**
 
+![Image](lab01_2a.png)
+
 > **using the command with a path to a directory as an argument**
 
+![Image](lab01_2b.png)
+
 > **using the command with a path to a file as an argument**
+
+![Image](lab01_2c.png)
 
 ## `cat`
 
 > **using the command with no arguments**
 
+![Image](lab01_3a.png)
+
 > **using the command with a path to a directory as an argument**
 
+![Image](lab01_3b.png)
+
 > **using the command with a path to a file as an argument**
+
+![Image](lab01_3c.png)
