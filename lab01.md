@@ -1,8 +1,8 @@
 # Lab Report 01
 
-> cd 
+'cd'
 
-**using the command with no arguments**
+> using the command with no arguments
 
 ![Image](lab01_1a.png)
 - the working directory was ~/lecture1/messages
