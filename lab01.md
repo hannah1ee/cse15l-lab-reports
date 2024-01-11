@@ -7,8 +7,7 @@
 
 ![Image](lab01_1a.png)
 - the working directory was ~/lecture1/messages
-- i got that output because the command cd is the change directory bash command, which allows you to move between directories. When there is no argument, the command takes you to your home directory, which in this situation is nothing.
-- this output is not an error.
+- There is no output because the command is internal, and so is parsed and executed completely by it's own process. Although there is no output given by the command itself, I can see that I am now returned to my home directory in my next line. 
 
 > **using the command with a path to a directory as an argument**
 
