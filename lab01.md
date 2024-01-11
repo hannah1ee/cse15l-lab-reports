@@ -1,6 +1,6 @@
 # Lab Report 01
 
-## `cd`
+## `command: cd`
 
 > **using the command with no arguments**
 
@@ -23,7 +23,7 @@
 - i got that output because the command cd messages moved me from the lecture1 directory to the file messages within the lecture1 directory.
 - this output is not an error.
 
-## `ls`
+## `command: ls`
 
 > **using the command with no arguments**
 
@@ -37,7 +37,7 @@
 
 ![Image](lab01_2c.png)
 
-## `cat`
+## `command: cat`
 
 > **using the command with no arguments**
 
