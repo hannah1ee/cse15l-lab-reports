@@ -1,6 +1,6 @@
-# Lab Report 01
+## Lab Report 01
 
-`cd`
+# `cd`
 
 > using the command with no arguments
 
