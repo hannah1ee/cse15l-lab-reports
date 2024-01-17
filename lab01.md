@@ -17,12 +17,12 @@
 - I got no output because as stated above, the command is internal and so is parsed and executed completely by it's own process. Yet although there is no output given by the command itself, I can see that I was moved to the directory of lecture1. This is because lecture1 was a directory in the filesystem of my home directory
 - The output (no output) is not an error. 
 
-> **using the command with a path to a file as an argument**
-
 ![Image](lab01_1c.png)
 - the working directory was /home/lecture1
 - I got no output because as stated above, the command is internal and so is parsed and executed completely by it's own process. Yet although there is no output given by the command itself, I can see that I was moved to the file messages. This is because in the filesystem of lecture1 there existed a file called messages
 - this output is not an error.
+
+> **using the command with a path to a file as an argument**
 
 ## `ls`
 
