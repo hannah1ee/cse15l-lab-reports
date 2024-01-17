@@ -25,9 +25,9 @@
 > **using the command with a path to a file as an argument**
 
 ![Image](lab01_1d.png)
-- the working directory was /home
-- I got no output because as stated above, the command is internal and so is parsed and executed completely by it's own process. Yet although there is no output given by the command itself, I can see that I was moved to the directory of lecture1. This is because lecture1 was a directory in the filesystem of my home directory
-- The output (no output) is not an error. 
+- the working directory was /home/lecture1
+- The output I got was a bash message that says that it cannot move to the Hello.class file because it is not a directory. In the filesystem there is a directory that goes to lecture1, and within this directory the file Hello.class is a class file, and so it cannot be navigated to. In the next line, the working directory is the same as before
+- The output, a statement that Hello.class is not a directory, is an error because the code working would produce no output, as shown in the examples with the file as a directory, with the result would be a navigation to the new file.
 
 ## `ls`
 
