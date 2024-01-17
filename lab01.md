@@ -34,16 +34,28 @@
 > **using the command with no arguments**
 
 ![Image](lab01_2a.png)
+- the working directory was /home
+- The output I got was the lecture1, the only directory in the current working directory. To have no arguments when running the ls command, it will usually output the names of files and directories in the current directory, which in this case are the contents of the working director, /home
+- This output is not an error. 
 
 > **using the command with a path to a directory as an argument**
 
 ![Image](lab01_2b.png)
+- the working directory was /home
+- The output I got was Hello.class, Hello.java, messages (highlighted blue), and README. Because the argument in this case was lecture1, and the directory lecture1 was in the filesystem of the working directory, /home, the command listed the contents of the lecture1 directory.
+- This output is not an error
 
 ![Image](lab01_2c.png)
+- the working directory was /home
+- The output I got was a message that ls cannot access 'messages' because there is no such file or directory. In the filesystem of /home, the only directory is lecture1.
+- This output is an error because the command is not able to access the directory 'messages' because while it exists within /home, the command cannot access it because the working directory is /home, which doesn't have access to the directory 'messages'. This code would run as inticipated if the working directory was /home/lecture1, which has access to the directory 'messages'.
 
 > **using the command with a path to a file as an argument**
 
 ![Image](lab01_2d.png)
+- the working directory was /home/lecture1
+- The output I got was Hello.java, the name of the file. Although the command 'ls' is typically used with an argument that is a directory, when it is used with an argument which type is a file, it typically provides information about that file. In this case, the output is the file's name.
+- This output is not an error. 
 
 ## `cat`
 
