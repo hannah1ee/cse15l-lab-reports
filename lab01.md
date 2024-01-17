@@ -39,9 +39,11 @@
 
 ![Image](lab01_2b.png)
 
+![Image](lab01_2c.png)
+
 > **using the command with a path to a file as an argument**
 
-![Image](lab01_2c.png)
+![Image](lab01_2d.png)
 
 ## `cat`
 
@@ -53,6 +55,9 @@
 
 ![Image](lab01_3b.png)
 
+![Image](lab01_3c.png)
+
 > **using the command with a path to a file as an argument**
 
-![Image](lab01_3c.png)
+![Image](lab01_3d.png)
+
