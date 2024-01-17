@@ -24,6 +24,11 @@
 
 > **using the command with a path to a file as an argument**
 
+![Image](lab01_1d.png)
+- the working directory was /home
+- I got no output because as stated above, the command is internal and so is parsed and executed completely by it's own process. Yet although there is no output given by the command itself, I can see that I was moved to the directory of lecture1. This is because lecture1 was a directory in the filesystem of my home directory
+- The output (no output) is not an error. 
+
 ## `ls`
 
 > **using the command with no arguments**
