@@ -62,14 +62,26 @@
 > **using the command with no arguments**
 
 ![Image](lab01_3a.png)
+- The working directory was /home
+- The output I got was an interactive input where after typing text, in this case, 'hello world', the 'cat' command will display what I entered. Although this is not a very common usage, it is typically used for interactive input because by pressing 'Ctrl-D' or 'Ctrl-Z', you can see the input returned.
+- This output is not an error.
 
 > **using the command with a path to a directory as an argument**
 
 ![Image](lab01_3b.png)
+- The working directory was /home
+- The output I got was a error message that 'cat' recognizes the argument as a directory. In this case, lecture1 was in the filesystem of the home page.
+- This is an error because a directory is not a valid operation for 'cat'. The 'cat' command is used to concatenate and display the content of files, not directories. If you want to list the contents of a directory, the 'ls' command should be used instead.
 
 ![Image](lab01_3c.png)
+- The working directory was /home
+- The output I got was an error message that 'cat' cannot find the file or directory 'messages'. In this case, 'messages' was not in the filesystem of the home.
+- This is an error because the specified file or directory does not exist in the working directory. In this case, this is because the path to the directory 'messages' is incorrect. 
 
 > **using the command with a path to a file as an argument**
 
 ![Image](lab01_3d.png)
+- The working directory was /home/lecture1
+- The output I got was the text of the README file, which was 'To use this program: javac Hello.java, java Hello messages/en-us.txt'. When the command 'cat' is ran with a file as its argument, it displays the contents of the specified file. The output is the content of the file printed to the terminal.
+- This is not an error.
 
