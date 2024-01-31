@@ -71,4 +71,8 @@ class ChatServer {
 
 ### Screenshot #1: message = hello world & user = hannah
 
+![Image](lab02_hannah.png)
+
+![Image](lab02_stephen.png)
+
 
