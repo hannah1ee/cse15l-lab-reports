@@ -97,4 +97,8 @@ class ChatServer {
 
 ![Image](lab02_05.png)
 
+## Part 03: Reflection
+
+Something I learned during these past two weeks of lab was how to activate, code, and run my own server that I could interact with through the URL. It was not only my first time interacting with a website through what I input in the url, but more fascinating was being able to control how it was handled and even storing and returning its history. It was very fun learning how a command in the terminal and a port number could lead to my own website page that others could also interact with. Now that I am able to implement basic functionalities based on the url input, I am excited to explore it deeper and see what else I can add to my websites. 
+
 
