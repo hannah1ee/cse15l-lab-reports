@@ -83,4 +83,12 @@ class ChatServer {
 - the relevant argument for handleRequest was the url and the uri for addMessage. the values of the relevant fields of the class was the user, chat_message, and requests
 - the value of user was changed to stephen, the chat_message to goodbyeworld. 
 
+## Part 02: using the command line
+
+### Screenshot #3: absolute path to the private key for my SSH key for logging into ieng6
+
+### Screenshot #4: absolute path to the public key for your SSH key for logging into ieng6
+
+### Screenshot #5: terminal interaction where you log into your ieng6 account without being asked for a password.
+
 
