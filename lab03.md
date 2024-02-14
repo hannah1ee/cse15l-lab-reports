@@ -68,6 +68,7 @@ I focused on the command `find`
 - this option makes it so that `find` searches for a specific type of file
 - some example types of files that could be searched for include regular files, directories, symbolic links, etc.
 - [Find - Linux man page](https://linux.die.net/man/1/find)
+   - I found the `-type` option by looking through the Standards Conformance section 
 
 #### Example 1: finding all directories within ./technical
 
@@ -105,7 +106,9 @@ output:
 This command searches for and lists all regular files within the ./technical directory. The output are the paths of the regular files found, including any subdirectories. This command is useful for identifying all regular files within a specified directory and any of its subdirectories.
 
 ### option 2. `-name` 
-- this option makes it so that `find` searches for files within a specific name or pattern 
+- this option makes it so that `find` searches for files within a specific name or pattern
+- [Find - Linux man page](https://linux.die.net/man/1/find) 
+   - I found the `-name` option by looking through the Standards Conformance section 
 
 #### Example 1: finding files with "chapter" in the name within ./technical
 
@@ -145,6 +148,8 @@ This command searches for files within the ./technical directory that have ".txt
 
 ### option 3. `-size` 
 - this option makes it so that `find` searches for files based on their size
+- [Find - Linux man page](https://linux.die.net/man/1/find) 
+   - I found the `-size` option by looking through the TESTS section
 
 #### Example 1: finding files smaller than 100KB within ./technical
 
@@ -182,6 +187,8 @@ This command searches for regular files within the ./technical directory that ar
 
 ### option 4. `-empty` 
 - this option makes it so that `find` searches for empty files and directories 
+- [Find - Linux man page](https://linux.die.net/man/1/find)
+  - I found the `-empty` option by looking through the Environment Variables section
 
 #### Example 1: finding all empty files within ./technical
 
