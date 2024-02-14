@@ -59,3 +59,12 @@ static void reverseInPlace(int[] arr) {
 ### Briefly describe why the fix addresses the issue.
 
 This fix addresses the issue by traversing only half of the array and swapping the elements at the current index with the corresponding element from the end of the array. This ensures that the array is correctly reversed in place.
+
+## Part 2 | Researching Commands
+
+I focused on the command `grep`
+
+### 1. 	`-r` which allows `grep` to recursively search through dictionaries for a specific pattern or string.
+
+#### Example 1
+
