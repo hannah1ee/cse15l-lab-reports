@@ -62,9 +62,71 @@ This fix addresses the issue by traversing only half of the array and swapping t
 
 ## Part 2 | Researching Commands
 
-I focused on the command `grep`
+I focused on the command `find`
 
-### 1. 	`-r` which allows `grep` to recursively search through dictionaries for a specific pattern or string.
+### option 1. `-type` 
+- this option makes it so that `find` search for a specific type of file
+- example types of files include regular files, directories, symbolic links, etc.
+
 
 #### Example 1
+
+using command: 
+
+output: 
+
+#### Example 2
+
+using command: 
+
+output: 
+
+
+### option 2. `-name` 
+- this option makes it so that which srarched for files with a specific name or pattern.
+
+#### Example 1
+
+using command: 
+
+output: 
+
+#### Example 2
+
+using command: 
+
+output: 
+
+### option 2. `-name` 
+- this option makes it so that which srarched for files with a specific name or pattern.
+
+
+
+
+
+#### Example 1
+
+using command: 
+
+output: 
+
+#### Example 2
+
+using command: 
+
+output: 
+
+### 4. `-i` which enables `grep` to ignore case distinctions when searching for patterns or strings
+
+#### Example 1
+
+using command: 
+
+output: 
+
+#### Example 2
+
+using command: 
+
+output: 
 
