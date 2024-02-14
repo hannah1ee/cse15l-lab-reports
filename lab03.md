@@ -68,7 +68,7 @@ I focused on the command `find`
 - this option makes it so that `find` searches for a specific type of file
 - some example types of files that could be searched for include regular files, directories, symbolic links, etc.
 - [Find - Linux man page](https://linux.die.net/man/1/find)
-   - I found the `-type` option by looking through the Standards Conformance section 
+   - I found the `-type` option by looking through the Standards Conformance section, which outlines the various standards and specifications that `find` adheres to 
 
 #### Example 1: finding all directories within ./technical
 
@@ -108,7 +108,7 @@ This command searches for and lists all regular files within the ./technical dir
 ### option 2. `-name` 
 - this option makes it so that `find` searches for files within a specific name or pattern
 - [Find - Linux man page](https://linux.die.net/man/1/find) 
-   - I found the `-name` option by looking through the Standards Conformance section 
+   - I found the `-name` option by looking through the Standards Conformance section, which outlines the various standards and specifications that `find` adheres to 
 
 #### Example 1: finding files with "chapter" in the name within ./technical
 
@@ -149,7 +149,7 @@ This command searches for files within the ./technical directory that have ".txt
 ### option 3. `-size` 
 - this option makes it so that `find` searches for files based on their size
 - [Find - Linux man page](https://linux.die.net/man/1/find) 
-   - I found the `-size` option by looking through the TESTS section
+   - I found the `-size` option by looking through the TESTS section, which outlines the available options for specifying conditions or characteristics to filter files or directories.
 
 #### Example 1: finding files smaller than 100KB within ./technical
 
@@ -188,7 +188,7 @@ This command searches for regular files within the ./technical directory that ar
 ### option 4. `-empty` 
 - this option makes it so that `find` searches for empty files and directories 
 - [Find - Linux man page](https://linux.die.net/man/1/find)
-  - I found the `-empty` option by looking through the Environment Variables section
+  - I found the `-empty` option by looking through the Environment Variables section, which outlines variables that can be set to customize aspects of how `find` operates.
 
 #### Example 1: finding all empty files within ./technical
 
