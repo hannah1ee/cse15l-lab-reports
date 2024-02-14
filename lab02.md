@@ -78,12 +78,14 @@ class ChatServer {
 ![Image](lab02_hannah.png)
 **1. Which methods in your code are called?**
 - the methods that were called in my code were the `handleRequest` method in the `Handler` class. It was called with the URI object representing the request `/add-message?s=goodbyeworld&user=stephen`
+
 **2. What are the relevant arguments to those methods, and the values of any relevant fields of the class?**
 - the relevant arguments to the `handleRequest` method are the URI object, which represents the request as well as contains information about the path and query parameters
 - the `requests` ArrayList field of the `Handler` class contains the chat history
 - the `user` field of the class contains the username extracted from the request
 - the `chat_message` field of the `Handler` class contains the message extracted from the request
-**2. How do the values of any relevant fields of the class change from this specific request?**
+
+**3. How do the values of any relevant fields of the class change from this specific request?**
 - the `user` field is set to the text "stephen"
 - the `chat_message` field is set to the text "goodbyeworld"
 - the `requests` ArrayList is updated with a new chat message "stephen: goodbyeword"
