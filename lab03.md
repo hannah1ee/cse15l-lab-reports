@@ -3,7 +3,7 @@
 ## Part 1 | Bugs
 
 
-Choose one of the bugs from week 4's lab.
+### Choose one of the bugs from week 4's lab.
 
 Provide:
 
