@@ -113,11 +113,11 @@ class ChatServer {
 
 ![Image](lab02_2a.png)
 
-### Screenshot #4: absolute path to the public key for your SSH key for logging into ieng6
+### Screenshot #4: absolute path to the public key for my SSH key for logging into ieng6
 
 ![Image](lab02_2b.png)
 
-### Screenshot #5: terminal interaction where you log into your ieng6 account without being asked for a password.
+### Screenshot #5: terminal interaction where I log into my ieng6 account without being asked for a password.
 
 ![Image](lab02_2c.png)
 
