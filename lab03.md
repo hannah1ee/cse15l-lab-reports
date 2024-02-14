@@ -2,15 +2,6 @@
 
 ## Part 1 | Bugs
 
-
-### Choose one of the bugs from week 4's lab.
-```
-static void reverseInPlace(int[] arr) {
-    for(int i = 0; i < arr.length; i += 1) {
-      arr[i] = arr[arr.length - i - 1];
-    }
-  }
-```
 ### A failure-inducing input for the buggy program
 ```
 @Test
@@ -30,14 +21,41 @@ public void testReverseInPlace_Failure() {
 	}
 ```
 
-### The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
+### The symptom, as the output of running the tests
 
 ![Image](lab03_3a.png)
+- This output shows that the test for testReverseInPlace_NoFailure runs without a problem, which the test for testReverseInPlace_Failure failures. 
 
 ![Image](lab03_3b.png)
+- This is the output when the test does not fail. This test means that the function returned 5 as expected. 
 
 ![Image](lab03_3c.png)
+- This is the output when the test fails. This test means that the function returned returned 4 when it expected 2. 
 
 
-The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
-Briefly describe why the fix addresses the issue.
+### The bug, as the before-and-after code change required to fix it 
+
+Before code change:
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+```
+
+After code change:
+```
+static void reverseInPlace(int[] arr) {
+    int n = arr.length;
+    for (int i = 0; i < n / 2; i++) {
+        int temp = arr[i];
+        arr[i] = arr[n - i - 1];
+        arr[n - i - 1] = temp;
+    }
+}
+```
+
+### Briefly describe why the fix addresses the issue.
+
+This fix addresses the issue by traversing only half of the array and swapping the elements at the current index with the corresponding element from the end of the array. This ensures that the array is correctly reversed in place.
