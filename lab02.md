@@ -2,6 +2,7 @@
 
 ## Part 01: ChatServer.java code
 
+```
 import java.io.IOException;
 import java.net.URI;
 import java.util.ArrayList;
@@ -69,14 +70,17 @@ class ChatServer {
     }
 }
 
-### Screenshot #1: message = helloworld & user = hannah
+```
+
+
+### Screenshot #1: message = goodbyeword & user = stephen
 
 ![Image](lab02_hannah.png)
 - the methods that were called in my code were handleRequest and addMessage
-- the relevant argument for handleRequest was the url and the uri for addMessage. the values of the relevant fields of the class was the user, chat_message, and requests
+- the relevant argument for handleRequest was the url and the uri for addMessage. the values of the relevant fields of the class was the user, chat_message, and requests. 
 - the value of user was changed to hannah, the chat_message to helloworld. 
 
-### Screenshot #2: message = goodbyworld & user = stephen
+### Screenshot #2: message = helloworld & user = hannah
 
 ![Image](lab02_stephen.png)
 - the methods that were called in my code were handleRequest and addMessage
