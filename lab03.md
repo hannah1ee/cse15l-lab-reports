@@ -11,7 +11,7 @@ static void reverseInPlace(int[] arr) {
     }
   }
 ```
-### 1. A failure-inducing input for the buggy program
+### A failure-inducing input for the buggy program
 ```
 @Test
 public void testReverseInPlace_Failure() {
@@ -20,7 +20,7 @@ public void testReverseInPlace_Failure() {
     assertArrayEquals(new int[]{ 5, 4, 3, 2, 1 }, input1);
 }
 ```
-### 2. An input that doesn't induce a failure
+### An input that doesn't induce a failure
 ```
 @Test 
 	public void testReverseInPlace_NoFailure() {
@@ -31,6 +31,12 @@ public void testReverseInPlace_Failure() {
 ```
 
 ### The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
+
+![Image](lab03_3a.png)
+
+![Image](lab03_3b.png)
+
+![Image](lab03_3c.png)
 
 
 The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
