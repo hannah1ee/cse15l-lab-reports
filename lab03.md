@@ -67,6 +67,7 @@ I focused on the command `find`
 ### option 1. `-type` 
 - this option makes it so that `find` searches for a specific type of file
 - some example types of files that could be searched for include regular files, directories, symbolic links, etc.
+- 
 
 #### Example 1: finding all directories within ./technical
 
@@ -81,6 +82,9 @@ output:
 ./technical/911report
 ./technical/biomed
 ```
+
+This command searches for and lists all driectories within the ./technical directory, showing the paths of the directories founnd, including subdirectories if any. It is useful for identifying the directory structure within the specified path 
+
 
 #### Example 2: finding all regular files within ./technical
 
@@ -97,6 +101,8 @@ output:
  # more lines of output
 ./technical/biomed/1471-2121-2-10.txt
 ```
+
+This command searches for and lists all regular files within the ./technical directory. The output are the paths of the regular files found, including any subdirectories. This command is useful for identifying all regular files within a specified directory and any of its subdirectories.
 
 ### option 2. `-name` 
 - this option makes it so that `find` searches for files within a specific name or pattern 
@@ -117,11 +123,13 @@ output:
 ./technical/911report/chapter-13.4.txt
 ```
 
-#### Example 2: finding files with ".txt" in the name within ./technical
+This command searches for files within the ./technical directory that have "chapter" in their name. It outputs the paths of the files found, including subdirectories if any. This is useful for locating files that are chapters within reports.
+
+#### Example 2: finding files with ".txt" at the end of the name within ./technical
 
 using command: 
 ```
-find ./technical -name "*.txt*"
+find ./technical -name "*.txt"
 ```
 
 output: 
@@ -132,6 +140,8 @@ output:
  # more lines of output
 ./technical/biomed/1471-2121-2-10.txt
 ```
+
+This command searches for files within the ./technical directory that have ".txt" at the end of their name. It outputs the paths of the text files found, including any subdirectories. This is useful for locating files that are in the .txt format.
 
 ### option 3. `-size` 
 - this option makes it so that `find` searches for files based on their size
@@ -152,6 +162,7 @@ output:
 ./technical/biomed/1471-2121-2-10.txt
 ```
 
+This command searches for regular files within the ./technical directory that are smaller than 100 kilobytes. It outputs the paths of the files found, including any subdirectories. This command is useful for identifying files that may be smaller in size that 100 kilobytes to take further action upon them.
 
 #### Example 2: finding files larger than 200KB within ./technical
 
@@ -166,6 +177,8 @@ output:
 ./technical/911report/chapter-13.5.txt
 ./technical/911report/chapter-13.4.txt
 ```
+
+This command searches for regular files within the ./technical directory that are larger than 200 kilobytes. It outputs the paths of the files found, including any subdirectories. This command is useful for identifying files that may be larger in size than 200 kilobytes to possibly avoid messing with them. 
 
 ### option 4. `-empty` 
 - this option makes it so that `find` searches for empty files and directories 
@@ -186,6 +199,9 @@ output:
 ./technical/biomed/1475-9276-1-3.txt
 ```
 
+This command searches for regular files within the ./technical directory that are empty. It outputs the paths of the empty files found, including any subdirectories. This is useful for identifying and managing empty files, which may be files that we wish to delete. 
+
+
 #### Example 2: finding all empty directories within ./technical
 
 using command: 
@@ -197,5 +213,7 @@ output:
 ```
 # no output because no empty directories
 ```
+
+This command searches for directories within the ./technical directory that are empty. It outputs the paths of the empty directors found, which in this case are none. This is useful for identifying and managing empty directories, which may be directories that we can build upon or remove. 
 
 
