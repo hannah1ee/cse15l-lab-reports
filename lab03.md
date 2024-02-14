@@ -67,7 +67,7 @@ I focused on the command `find`
 ### option 1. `-type` 
 - this option makes it so that `find` searches for a specific type of file
 - some example types of files that could be searched for include regular files, directories, symbolic links, etc.
-- 
+- [Find - Linux man page](https://linux.die.net/man/1/find)
 
 #### Example 1: finding all directories within ./technical
 
