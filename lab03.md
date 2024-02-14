@@ -65,68 +65,137 @@ This fix addresses the issue by traversing only half of the array and swapping t
 I focused on the command `find`
 
 ### option 1. `-type` 
-- this option makes it so that `find` search for a specific type of file
-- example types of files include regular files, directories, symbolic links, etc.
+- this option makes it so that `find` searches for a specific type of file
+- some example types of files that could be searched for include regular files, directories, symbolic links, etc.
 
-
-#### Example 1
-
-using command: 
-
-output: 
-
-#### Example 2
+#### Example 1: finding all directories within ./technical
 
 using command: 
+```
+find ./technical -type d
+```
 
 output: 
+```
+./technical
+./technical/911report
+./technical/biomed
+```
 
+#### Example 2: finding all regular files within ./technical
+
+using command: 
+```
+find ./technical -type f
+```
+
+output: 
+```
+./technical/911report/chapter-3.txt
+./technical/911report/chapter-11.txt
+./technical/911report/chapter-13.5.txt
+ # more lines of output
+./technical/biomed/1471-2121-2-10.txt
+```
 
 ### option 2. `-name` 
-- this option makes it so that which srarched for files with a specific name or pattern.
+- this option makes it so that `find` searches for files within a specific name or pattern 
 
-#### Example 1
-
-using command: 
-
-output: 
-
-#### Example 2
+#### Example 1: finding files with "chapter" in the name within ./technical
 
 using command: 
+```
+find ./technical -name "*chapter*"
+```
 
 output: 
+```
+./technical/911report/chapter-3.txt
+./technical/911report/chapter-11.txt
+./technical/911report/chapter-13.5.txt
+ # more lines of output
+./technical/911report/chapter-13.4.txt
+```
 
-### option 2. `-name` 
-- this option makes it so that which srarched for files with a specific name or pattern.
-
-
-
-
-
-#### Example 1
+#### Example 2: finding files with ".txt" in the name within ./technical
 
 using command: 
+```
+find ./technical -name "*.txt*"
+```
 
 output: 
+```
+./technical/911report/chapter-3.txt
+./technical/911report/chapter-11.txt
+./technical/911report/chapter-13.5.txt
+ # more lines of output
+./technical/biomed/1471-2121-2-10.txt
+```
 
-#### Example 2
+### option 3. `-size` 
+- this option makes it so that `find` searches for files based on their size
+
+#### Example 1: finding files smaller than 100KB within ./technical
 
 using command: 
+```
+find ./technical -type f -size -100k
+```
 
 output: 
+```
+./technical/911report/chapter-11.txt
+./technical/911report/chapter-8.txt
+./technical/911report/chapter-13.1.txt
+ # more lines of code
+./technical/biomed/1471-2121-2-10.txt
+```
 
-### 4. `-i` which enables `grep` to ignore case distinctions when searching for patterns or strings
 
-#### Example 1
+#### Example 2: finding files larger than 200KB within ./technical
 
 using command: 
+```
+find ./technical -type f -size +200k
+```
 
 output: 
+```
+./technical/911report/chapter-3.txt
+./technical/911report/chapter-13.5.txt
+./technical/911report/chapter-13.4.txt
+```
 
-#### Example 2
+### option 4. `-empty` 
+- this option makes it so that `find` searches for empty files and directories 
+
+#### Example 1: finding all empty files within ./technical
 
 using command: 
+```
+find ./technical -type f -empty
+```
 
 output: 
+```
+./technical/biomed/ar408.txt
+./technical/biomed/ar118.txt
+./technical/biomed/1477-7827-1-23.txt
+ # more lines of code
+./technical/biomed/1475-9276-1-3.txt
+```
+
+#### Example 2: finding all empty directories within ./technical
+
+using command: 
+```
+find ./technical -type d -empty
+```
+
+output: 
+```
+# no output because no empty directories
+```
+
 
