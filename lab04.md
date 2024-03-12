@@ -3,6 +3,7 @@
 ## Step 4: Log into ieng6
 
 **Screenshot:**
+![Image](lab07_step4.png)
 
 **Keys pressed:**
 
