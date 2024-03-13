@@ -16,8 +16,32 @@ I've also attached my ```WordCounter.java``` file for reference:
 
 ![Lab51a](lab05_1b.png)
 
-
-
 Thank you for your help!
 
 ### response from TA
+
+Hi! You're on the right track using the ```split``` method, but the way tht you're using it might not handle the cases with multiple consecutive spaces or special characters like you've noticed. Can you try running your program with a debug print statement right after you split the texts to see how many words are in your array? That might help you understand how the ```split``` method is working. 
+
+### follow-up Post from Student
+
+Thank you for your suggestion! I added the debug print statement as you recommended, and I realized that the way ```.length``` worked as well as splitting just with ```" "``` that it was not running the way I expected to. 
+
+Here's a screenshot of the debug print statements I added to my ```WordCounter.java``` file:
+
+![Lab_screenshot](lab05_3a.png)
+
+And here's a screenshot of my initial terminal output when I ran my tests!
+
+![Lab_screenshot](lab05_3b.png)
+
+This made me realize that I should account for when the string is empty so that ```.length``` will work as I expect it to, and that I should account for other special characters than just space when splitting the words. The solution I came up with to be able to efficiently and accurately split the words was through using a regular expression that matches any non-word character or sequence of non-word characters. 
+
+Here's a screenshot of my fixed ```WordCounter.java``` file, where I changed ```test.split(" ")``` to ```text.split("\\W+")``` as well as added the necessary conditions to handle empty string:
+
+![Lab_screenshot](lab05_3c.png)
+
+And heres the output as well as all my tests running! Thank you so much for guiding me in the right direction!
+
+![Lab_screenshot](lab05_3d.png)
+
+
