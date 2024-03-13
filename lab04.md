@@ -16,13 +16,14 @@ I used the command ```ssh hal131@ieng6.ucsd.edu``` to log into my ieng6 account 
 
 **Screenshots:**
 
-This is a screenshot of
-
+This is a screenshot of my directory at the start, but just like in the instructions I delete any existing forks of the repository I have on my account (step 1 - Setup):
 ![Image](lab07_5a.png)
 
-![Image](lab07_5b.png)
-
+This is a screenshot of the SSH URL from github from my forked repository. 
 ![Image](lab07_5c.png)
+
+This is a screenshot of cloning the copied SSH URL from my forked repository into my ieng6 terminal
+![Image](lab07_5b.png)
 
 **Keys pressed:**
 
