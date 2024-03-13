@@ -71,9 +71,14 @@ I  accessed the  ```ListExamples.java``` file using ```vim L<Tab>.java <Enter>``
 
 **Screenshot:**
 
+This is a screenshot of when I run the tests and determined that they passed:
+![Image](lab07_8a.png)
+
 **Keys pressed:**
+- To run the tests, I ran the commands and pressed the keys: ```bash test<Tab> Enter```
 
 **Summary:**
+I ran the tests to demonstrate that they are failing.
 
 
 ## Step 9: Commit and push the resulting change to your Github account (you can pick any commit message!)
