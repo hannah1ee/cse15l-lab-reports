@@ -11,10 +11,22 @@ For this step, I used the command ```ssh hal131@ieng6.ucsd.edu``` into the termi
 **Summary:**
 In summary, I used the command ```ssh hal131@ieng6.ucsd.edu``` to log into my ieng6 account without using a password. 
 
+
 ## Step 5: Clone your fork of the repository from your Github account (using the SSH URL)
 
+**Screenshot:**
+
+**Keys pressed:**
+
+**Summary:**
 
 ## Step 6: Run the tests, demonstrating that they fail
+
+**Screenshot:**
+
+**Keys pressed:**
+
+**Summary:**
 
 
 ## Step 7: Edit the code file to fix the failing test
