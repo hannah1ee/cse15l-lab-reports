@@ -44,4 +44,25 @@ And heres the output as well as all my tests running! Thank you so much for guid
 
 ![Lab_screenshot](lab05_3d.png)
 
+### All information needed about the Setup
+
+> File & Directory Structure needed
+
+![Lab_screenshot](lab05_4a.png)
+
+> The contents of each file before fixing the bug
+
+![Lab_screenshot](lab05_4b.png)
+
+![Lab_screenshot](lab05_4c.png)
+
+![Lab_screenshot](lab05_4d.png)
+
+> The full command line (or lines) you ran to trigger the bug
+- ```javac wordCounter.java```
+- ```bash test.sh```
+
+> A description of what to edit to fix the bug
+
+To fix the issue where the split method only accounts for spaces, as well as doesn't correctly account for empty strings, you should change the split method to account for various other characters you might encounter in text using regex. This meant changing the split delimiter from a single space ```" "``` to a regex pattern that matches any non-word character, which could be spaces, punctuation marks, as well as otherr special characters. The regex pattern I used for this was ```"\\W+"```, where ```\\W``` matches any non-word character and ```+``` signals one or more occurances of the non-word character. I also accounted for empty strings as well as leading or trailing spaces by using ```.trim()``` which gets rid of those leading or training spaces and also added an ```in``` statement for when the string is empty to directly return 0. 
 
