@@ -85,10 +85,17 @@ I ran the tests to demonstrate that they are failing.
 
 **Screenshot:**
 
-**Keys pressed:**
+This is a screenshot of how I initiated the commandd to stage the changes made to the file, then commited these staged changes, and finalized my changes:
+![Image](lab07_9a.png)
+
+**Keys pressed:** 
+- To initiate a command to stage the changes made to the file I used the command: ```git add```
+- To commit these staged changed with a custom commit message, I used the command: ```git commit -m "Changed to correct index in ListExamples.Java"```
+- To check the branch I am working in I used the command: ```git branch```
+- To finalize my changes, I pushed my commited changes to my GitHub forked repository using the command: ```git push```
 
 **Summary:**
-
+I initiated the commandd to stage the changes made to the file using ```git add```, then commited these staged changes with a custom message using ```git commit -m "Changed to correct index in ListExamples.Java"```, and finalized my changes my changes using ```git push```
 
 
 
