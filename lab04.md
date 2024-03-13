@@ -19,16 +19,16 @@ I used the command ```ssh hal131@ieng6.ucsd.edu``` to log into my ieng6 account 
 This is a screenshot of my directory at the start, but just like in the instructions I delete any existing forks of the repository I have on my account (step 1 - Setup):
 ![Image](lab07_5a.png)
 
-This is a screenshot of the SSH URL from github from my forked repository. 
+This is a screenshot of the SSH URL from github from my forked repository:
 ![Image](lab07_5c.png)
 
-This is a screenshot of cloning the copied SSH URL from my forked repository into my ieng6 terminal
+This is a screenshot of cloning the copied SSH URL from my forked repository into my ieng6 terminal:
 ![Image](lab07_5b.png)
 
 **Keys pressed:**
-- I ensured that I deleted any existing forks of the repository I have on my account using the command ```rm -rf lab7```.
-- The copied SSH URL from Github for my forked repository is: ```git@github.com:hannah1ee/lab7.git```.
-- I cloned the copied SSH URL into my ieng6 terminal using the commands and keys: ```git clone <CTRL+V> <Enter>
+- I ensured that I deleted any existing forks of the repository I have on my account using the command ```rm -rf lab7```
+- The copied SSH URL from Github for my forked repository is: ```git@github.com:hannah1ee/lab7.git```
+- I cloned the copied SSH URL into my ieng6 terminal using the commands and keys: ```git clone <CTRL+V> <Enter>```
 
 **Summary:**
 I first made sure to delete any existing forks of Lab7, then I used the SSH URL from Github for my forked repository to clone it into my ieng6 terminal.
