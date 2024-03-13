@@ -9,7 +9,7 @@
 For this step, I used the command ```ssh hal131@ieng6.ucsd.edu``` into the terminal. I set up to SSH without a password in previous steps so I didn't have to enter my password when logging in during the setup.
 
 **Summary:**
-In summary, I used the command ```ssh hal131@ieng6.ucsd.edu``` to log into my ieng6 account without using a password. 
+I used the command ```ssh hal131@ieng6.ucsd.edu``` to log into my ieng6 account without using a password. 
 
 
 ## Step 5: Clone your fork of the repository from your Github account (using the SSH URL)
