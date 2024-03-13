@@ -14,7 +14,15 @@ I used the command ```ssh hal131@ieng6.ucsd.edu``` to log into my ieng6 account 
 
 ## Step 5: Clone your fork of the repository from your Github account (using the SSH URL)
 
-**Screenshot:**
+**Screenshots:**
+
+This is a screenshot of
+
+![Image](lab07_5a.png)
+
+![Image](lab07_5b.png)
+
+![Image](lab07_5c.png)
 
 **Keys pressed:**
 
@@ -30,6 +38,13 @@ I used the command ```ssh hal131@ieng6.ucsd.edu``` to log into my ieng6 account 
 
 
 ## Step 7: Edit the code file to fix the failing test
+
+**Screenshot:**
+
+**Keys pressed:**
+
+**Summary:**
+
 
 
 ## Step 8: Run the tests, demonstrating that they now succeed
