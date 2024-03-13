@@ -37,9 +37,15 @@ I first made sure to delete any existing forks of Lab7, then I used the SSH URL 
 
 **Screenshot:**
 
+This is a screenshot of when I run the tests and determined that they failed:
+![Image](lab07_6a.png)
+
 **Keys pressed:**
+- To ensured I switched into the correct directory ```lab7```, I used the command ```cd lab7 <Enter>```
+- To run the tests, I ran the commands and pressed the keys: ```bash test<Tab> Enter```
 
 **Summary:**
+I first ensured I was switched into the correct directory, and then I ran the tests to demonstrate that they are failing.
 
 
 ## Step 7: Edit the code file to fix the failing test
