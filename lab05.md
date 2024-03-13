@@ -2,7 +2,7 @@
 
 ## Part 01 - Debugging Scenario
 
-### original post from student 
+### Original Post From Student 
 
 **EdStem Post:** Word Counter Program Not Working
 
@@ -18,11 +18,11 @@ I've also attached my ```WordCounter.java``` file for reference:
 
 Thank you for your help!
 
-### response from TA
+### Response from TA
 
 Hi! You're on the right track using the ```split``` method, but the way tht you're using it might not handle the cases with multiple consecutive spaces or special characters like you've noticed. Can you try running your program with a debug print statement right after you split the texts to see how many words are in your array? That might help you understand how the ```split``` method is working. 
 
-### follow-up Post from Student
+### Follow-up Post from Student
 
 Thank you for your suggestion! I added the debug print statement as you recommended, and I realized that the way ```.length``` worked as well as splitting just with ```" "``` that it was not running the way I expected to. 
 
