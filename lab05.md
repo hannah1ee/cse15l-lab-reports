@@ -2,7 +2,7 @@
 
 ## Part 01 - Debugging Scenario
 
-### original post from student 
+#### original post from student 
 
 **EdStem Post:** Word Counter Program Not Working
 
