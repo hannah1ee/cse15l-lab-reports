@@ -59,9 +59,12 @@ This is a screenshot of my fixed ```ListExamples.java``` file, where I modified 
 ![Image](lab07_7b.png)
 
 **Keys pressed:**
+- To edit the code file to fix the failing test, I accessed the ```ListExamples.java``` file using the command and keys: ```vim L<Tab>.java <Enter>```
+- To search for the ```index1`` part of the code that I needed to edit, I used the keys: ```<n> <n> <n> <n> <n> <n> <n> <n> <n>```
+- To edit ```index1``` to ```index2```, I used the key ```<e>``` to start at the end of the word, then the key ```<h>``` to move one step to the left to ensure that my cursor was hovering over the ```1``` of the ```index1```. Then I deleted the ```1``` using the key ```<x>``` and then changed it to ```<2>``` using the key ```<i>```. Finally, I exited the editing mode using the key ```<Esc>``` and saved my edits using the command ```:wq <Enter>``` 
 
 **Summary:**
-
+In summary, I first accessed the  ```ListExamples.java``` file using ```vim L<Tab>.java <Enter>```then got to the right location using ```<n> <n> <n> <n> <n> <n> <n> <n> <n>```, ```<e>```, ```<h>```, and edited the file using ```<x>``` and ```<i>```. I exited and saved my file using ```<Esc>``` and ```:wq <Enter>```
 
 
 ## Step 8: Run the tests, demonstrating that they now succeed
