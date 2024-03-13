@@ -26,8 +26,12 @@ This is a screenshot of cloning the copied SSH URL from my forked repository int
 ![Image](lab07_5b.png)
 
 **Keys pressed:**
+- I ensured that I deleted any existing forks of the repository I have on my account using the command ```rm -rf lab7```.
+- The copied SSH URL from Github for my forked repository is: ```git@github.com:hannah1ee/lab7.git```.
+- I cloned the copied SSH URL into my ieng6 terminal using the commands and keys: ```git clone <CTRL+V> <Enter>
 
 **Summary:**
+I first made sure to delete any existing forks of Lab7, then I used the SSH URL from Github for my forked repository to clone it into my ieng6 terminal.
 
 ## Step 6: Run the tests, demonstrating that they fail
 
