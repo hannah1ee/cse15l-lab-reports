@@ -52,6 +52,12 @@ I first ensured I was switched into the correct directory, and then I ran the te
 
 **Screenshot:**
 
+This is a screenshot of how I accessed the ```ListExamples.java``` file:
+![Image](lab07_7a.png)
+
+This is a screenshot of my fixed ```ListExamples.java``` file, where I modified ```index1``` to ```index2```:
+![Image](lab07_7b.png)
+
 **Keys pressed:**
 
 **Summary:**
@@ -60,10 +66,20 @@ I first ensured I was switched into the correct directory, and then I ran the te
 
 ## Step 8: Run the tests, demonstrating that they now succeed
 
+**Screenshot:**
+
+**Keys pressed:**
+
+**Summary:**
+
 
 ## Step 9: Commit and push the resulting change to your Github account (you can pick any commit message!)
 
+**Screenshot:**
 
+**Keys pressed:**
+
+**Summary:**
 
 
 
